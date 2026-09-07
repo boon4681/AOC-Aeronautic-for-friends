@@ -5222,6 +5222,42 @@
             ]
         },
         {
+            "pakku_id": "D6lpUfyo1SmcysUy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ex-deorum"
+            },
+            "name": {
+                "curseforge": "Ex Deorum"
+            },
+            "id": {
+                "curseforge": "901420"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "exdeorum-3.12.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8384/464/exdeorum-3.12.jar",
+                    "id": "8384464",
+                    "parent_id": "901420",
+                    "hashes": {
+                        "sha1": "4e1c95351ac00995eaacf02994a26c0f9ad9acd3",
+                        "md5": "a66aec8e76fc80df8046c0891bce6aea"
+                    },
+                    "required_dependencies": [],
+                    "size": 2123067,
+                    "date_published": "2026-07-07T01:14:13.123Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "eUJr2brRYH0Qx1nH",
             "type": "MOD",
             "slug": {
@@ -6766,6 +6802,52 @@
             ]
         },
         {
+            "pakku_id": "sGng1zNXOgELQif9",
+            "pakku_links": [
+                "D6lpUfyo1SmcysUy",
+                "dv7hbTAdWsYCa8z2",
+                "NyprtlXCjucNBNwK"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-ex-deorum"
+            },
+            "name": {
+                "curseforge": "KubeJS Ex Deorum"
+            },
+            "id": {
+                "curseforge": "1674108"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ExDeorumKJS-1.21.1-2101.1.0-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8765/805/ExDeorumKJS-1.21.1-2101.1.0-NeoForge.jar",
+                    "id": "8765805",
+                    "parent_id": "1674108",
+                    "hashes": {
+                        "sha1": "cef6e66790be5e0ef27094d7c14c53db7308f7dc",
+                        "md5": "7772df822e70b4e308de41c73224b7fa"
+                    },
+                    "required_dependencies": [
+                        "901420",
+                        "238086",
+                        "416294"
+                    ],
+                    "size": 1770714,
+                    "date_published": "2026-08-30T01:14:25.567Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cZb4bazShXqGRmc1",
             "type": "MOD",
             "slug": {
@@ -7661,6 +7743,47 @@
                     "required_dependencies": [],
                     "size": 174972,
                     "date_published": "2025-07-21T10:56:20.123Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GKEnORj3uXRZt0uQ",
+            "pakku_links": [
+                "dv7hbTAdWsYCa8z2"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ponder"
+            },
+            "name": {
+                "curseforge": "Ponder for KubeJS"
+            },
+            "id": {
+                "curseforge": "622888"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ponderjs-neoforge-1.21.1-2.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7436/813/ponderjs-neoforge-1.21.1-2.4.0.jar",
+                    "id": "7436813",
+                    "parent_id": "622888",
+                    "hashes": {
+                        "sha1": "9c35c5c31a613d58fc06e591e455bccfc3de6022",
+                        "md5": "518bd28db3eae3538026a1f75d6c4f40"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 1571893,
+                    "date_published": "2026-01-09T10:46:44.223Z"
                 }
             ]
         },

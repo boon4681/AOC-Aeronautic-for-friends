@@ -6,7 +6,7 @@
     "overrides": [
         "config",
         "kubejs",
-        "ldlib",
+        "ldlib2",
         "!kubejs/probe/**"
     ],
     "paths": {

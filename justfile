@@ -31,7 +31,7 @@ link: out
     mkdir -p "{{prism}}/instances/{{instance}}/minecraft"
     powershell -NoProfile -Command "robocopy '$(cygpath -w "$(pwd)/.link_new")' '$(cygpath -w "$(pwd)/.link")' /MIR /R:1 /W:1 /NFL /NDL /NJH /NJS /NP | Out-Null; exit 0"
     rm -rf .link_new 2>/dev/null || true
-    for dir in datapacks kubejs shaderpacks resourcepacks; do \
+    for dir in datapacks kubejs ldlib2 shaderpacks resourcepacks; do \
         if [ -d ".link/overrides/$dir" ]; then \
             dst="{{prism}}/instances/{{instance}}/minecraft/$dir"; \
             target="$(cygpath -w "$(pwd)/.link/overrides/$dir")"; \
