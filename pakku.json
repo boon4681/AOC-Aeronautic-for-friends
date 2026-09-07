@@ -1,0 +1,24 @@
+{
+    "name": "AOC - Aeronautic friends",
+    "version": "2.5-PATCH-1",
+    "description": "AOC - Aeronautic for my friends.",
+    "export_server_side_projects_to_client": false,
+    "overrides": [
+        "config"
+    ],
+    "paths": {
+        "mods": "mods",
+        "resource_packs": "resourcepacks",
+        "data_packs": "datapacks",
+        "worlds": "worlds",
+        "shader_packs": "shaderpacks"
+    },
+    "projects": {
+        "proxy-compatible-forge": {
+            "side": "SERVER"
+        },
+        "better-compatibility-checker": {
+            "side": "CLIENT"
+        }
+    }
+}

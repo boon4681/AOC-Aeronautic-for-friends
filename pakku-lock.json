@@ -5651,6 +5651,94 @@
             ]
         },
         {
+            "pakku_id": "pdeIpWTNIxnDROQi",
+            "pakku_links": [
+                "B6QuEMiTzBiuDRZx",
+                "FtwOKXbQqMRAZcwm",
+                "F7pUcPQAgBLZoRIi"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-chunks-forge"
+            },
+            "name": {
+                "curseforge": "FTB Chunks (NeoForge)"
+            },
+            "id": {
+                "curseforge": "314906"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-chunks-neoforge-2101.1.22.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8791/113/ftb-chunks-neoforge-2101.1.22.jar",
+                    "id": "8791113",
+                    "parent_id": "314906",
+                    "hashes": {
+                        "sha1": "a53f1bb7965c6954a348d4f321f03d3971ad503f",
+                        "md5": "781396912e2df9ed74d183811cb90407"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "404468",
+                        "419699"
+                    ],
+                    "size": 655807,
+                    "date_published": "2026-09-02T08:43:35.807Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NxpzW25cjLYCWmLj",
+            "pakku_links": [
+                "kzToYyVMNmFTefsX",
+                "pdeIpWTNIxnDROQi"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftbxaerocompat"
+            },
+            "name": {
+                "curseforge": "FTB Chunks x Xaero's Compat"
+            },
+            "id": {
+                "curseforge": "1357724"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftbxaerocompat-neoforge-1.1.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8103/626/ftbxaerocompat-neoforge-1.1.4.jar",
+                    "id": "8103626",
+                    "parent_id": "1357724",
+                    "hashes": {
+                        "sha1": "6923ae95bdde32d8b504364ea125969cc7d6cb2e",
+                        "md5": "bdf3efa52c71bdc7f3f08961bd1339d5"
+                    },
+                    "required_dependencies": [
+                        "317780",
+                        "314906"
+                    ],
+                    "size": 109301,
+                    "date_published": "2026-05-17T13:06:15.143Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xVoGEov71XfKD1Ty",
             "pakku_links": [
                 "F7pUcPQAgBLZoRIi"
@@ -7565,43 +7653,6 @@
             ]
         },
         {
-            "pakku_id": "eWARteVIwudedLhI",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "open-parties-and-claims"
-            },
-            "name": {
-                "curseforge": "Open Parties and Claims"
-            },
-            "id": {
-                "curseforge": "636608"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8690/620/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
-                    "id": "8690620",
-                    "parent_id": "636608",
-                    "hashes": {
-                        "sha1": "07d0dc7f42ad988065b1280d1452f3fed00f3fba",
-                        "md5": "bb25621c80190d79269ad70e3f1ea021"
-                    },
-                    "required_dependencies": [],
-                    "size": 1821784,
-                    "date_published": "2026-08-20T11:01:53.707Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "JpowPyKBm6wYgnaK",
             "type": "MOD",
             "slug": {
@@ -7907,6 +7958,126 @@
                     "required_dependencies": [],
                     "size": 84812,
                     "date_published": "2025-09-04T03:19:33.637Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dglVZ1aYHPAbp84L",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "proxy-compatible-forge"
+            },
+            "name": {
+                "modrinth": "Proxy Compatible Forge"
+            },
+            "id": {
+                "modrinth": "vDyrHl8l"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "proxy-compatible-forge-1.3.1.jar",
+                    "mc_versions": [
+                        "1.7.2",
+                        "1.7.3",
+                        "1.7.4",
+                        "1.7.5",
+                        "1.7.6",
+                        "1.7.7",
+                        "1.7.8",
+                        "1.7.9",
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vDyrHl8l/versions/qiZ49HIW/proxy-compatible-forge-1.3.1.jar",
+                    "id": "qiZ49HIW",
+                    "parent_id": "vDyrHl8l",
+                    "hashes": {
+                        "sha512": "dba5b70fedcb0f5fdc014801ab43e6d048f24b531de8aea5b70ea223760b66ae9fba3033c2ccd9d78793b9ea2f9d3b47ae1f4caa95aa129d989f97e63636b4ab",
+                        "sha1": "c5f4ffc9356a55296669e78ce72cad172642e370"
+                    },
+                    "required_dependencies": [],
+                    "size": 706613,
+                    "date_published": "2026-08-31T13:13:49.821656Z"
                 }
             ]
         },
