@@ -1,0 +1,46 @@
+# Server-specific configuration for FTB Ultimine
+
+{
+	costs_limits: {
+		# Hunger multiplier for each block ultimined (ATM default: 20.0)
+		# Range: 0.0 ~ 10000.0
+		exhaustion_per_block: 50.0d
+
+		# Amount of experience taken per block ultimined
+		experience_per_block: 0.0d
+
+		# Max amount of blocks that can be ultimined at once
+		max_blocks: 64
+
+		# Require a damageable tool, or an item in the ftbultimine tools tag
+		require_tool: false
+
+		# Require the equipped tool to be valid for the block being ultimined
+		require_valid_tool_for_block: false
+
+		# Cooldown in ticks between successive Ultimine uses
+		ultimine_cooldown: 0L
+	}
+
+	features: {
+		right_click_axe: true
+		right_click_crystals: true
+		right_click_harvesting: true
+		right_click_hoe: true
+		right_click_shovel: true
+	}
+
+	misc: {
+		cancel_on_block_break_fail: false
+
+		merge_tags: [
+			"minecraft:base_stone_overworld"
+			"c:ores/*"
+			"forge:ores/*"
+			"integrateddynamics:menril_logs"
+		]
+
+		merge_tags_shaped: ["*"]
+		prevent_tool_break: 0
+	}
+}

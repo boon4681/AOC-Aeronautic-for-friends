@@ -1,21 +1,15 @@
 const CreateScene = Java.loadClass('com.simibubi.create.foundation.ponder.CreateSceneBuilder')
 
-// Wood variants that exist without an extra tree mod installed. The gated
-// ones (Ars Nouveau, Blue Skies, Biomes O' Plenty, Aether) would be missing
-// items here, and create() rejects an empty ingredient.
-const WOODS = [
+const PONDER_WOODS = [
     'oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak',
     'mangrove', 'cherry', 'bamboo', 'crimson', 'warped'
 ]
 
-const SIEVES = WOODS.flatMap(wood => [
-    `exdeorum:${wood}_sieve`,
-    `exdeorum:${wood}_compressed_sieve`
-])
+const PONDER_SIEVES = PONDER_WOODS.map(wood => `exdeorum:${wood}_sieve`)
 
 Ponder.registry(event => {
     // One scene registered against every sieve variant at once.
-    event.create(Ingredient.of(SIEVES))
+    event.create(Ingredient.of(PONDER_SIEVES))
         .scene('deployer_sieving', 'Automating the Sieve', 'kubejs:deployer_sieve', (scene, util) => {
             const create = new CreateScene(scene)
             const pos = new BlockPos(2, 3, 2)

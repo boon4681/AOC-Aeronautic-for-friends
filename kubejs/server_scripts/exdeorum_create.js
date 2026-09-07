@@ -1,10 +1,3 @@
-// Bridges Ex Deorum sifting into Create's automation. Ex Deorum's own
-// Mechanical Sieve/Hammer run on FE, which Create does not produce, so both are
-// removed; sieving is automated with a Deployer right-clicking a normal sieve
-// instead, which keeps the whole chain on rotational power.
-
-// Mesh tiers in ascending order, each upgraded from the one below it by a
-// Deployer applying the listed material.
 const MESH_UPGRADES = [
     { from: 'exdeorum:string_mesh', to: 'exdeorum:flint_mesh', material: 'minecraft:flint' },
     { from: 'exdeorum:flint_mesh', to: 'exdeorum:iron_mesh', material: 'minecraft:iron_ingot' },
@@ -14,12 +7,9 @@ const MESH_UPGRADES = [
 ]
 
 ServerEvents.recipes(event => {
-    // --- Ex Deorum FE machines out, Create-powered path in ---------------
     event.remove({ output: 'exdeorum:mechanical_sieve' })
     event.remove({ output: 'exdeorum:mechanical_hammer' })
 
-    // --- Create: producing sieve feedstock without a shovel --------------
-    // Crushing wheels take the place of hammering for the bulk-rock steps.
     event.recipes.create.crushing(
         ['exdeorum:crushed_deepslate'],
         'minecraft:cobbled_deepslate'
@@ -46,19 +36,10 @@ ServerEvents.recipes(event => {
             .id(`aoc:deploying/${to.replace('exdeorum:', '')}`)
     })
 
-    // --- Full sieve table -------------------------------------------------
-    // Ex Deorum's 846 stock sieve recipes are dropped and replaced wholesale so
-    // drops stay inside what this pack actually has. The stock table hands out
-    // ore chunks for osmium, iridium, thorium, uranium and boron, none of which
-    // resolve to anything without a tech mod installed; here the metals are
-    // limited to iron/gold/copper/zinc, which keeps every chunk smeltable.
     event.remove({ type: 'exdeorum:sieve' })
 
     const binomial = (n, p) => ({ type: 'minecraft:binomial', n: n, p: p })
 
-    // Mesh tiers, cheapest first. A drop listed at tier i is also produced by
-    // every tier above it at a rate scaled by MESH_BONUS, so upgrading a mesh
-    // never loses access to a drop it used to give.
     const MESH_TIERS = [
         'exdeorum:string_mesh',
         'exdeorum:flint_mesh',
@@ -72,11 +53,7 @@ ServerEvents.recipes(event => {
     // becomes guaranteed.
     const MESH_BONUS = 1.15
 
-    // input -> drops. `min` is the cheapest mesh index that yields the drop,
-    // `n`/`p` the binomial roll at that tier.
     const SIEVE_TABLE = {
-        // Dirt is intentionally empty: seeds and saplings come from farming and
-        // leaf decay, not from sifting.
         'minecraft:gravel': [
             { result: 'minecraft:flint', min: 0, n: 1, p: 0.6 },
             { result: 'exdeorum:stone_pebble', min: 0, n: 7, p: 0.84 },

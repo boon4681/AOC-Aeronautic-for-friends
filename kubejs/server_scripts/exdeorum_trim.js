@@ -1,10 +1,3 @@
-// Trims Ex Deorum down to the parts this pack actually uses. Sieving is the
-// only mechanic kept; the rest is replaced by Create machines, so their
-// recipes are removed to stop them showing as a parallel progression.
-
-// Ex Deorum defines these for every wood type it supports, but the mod-gated
-// variants (Ars Nouveau, Blue Skies, Biomes O' Plenty, Aether) do not exist
-// without those mods installed.
 const WOODS = [
     'oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak',
     'mangrove', 'cherry', 'bamboo', 'crimson', 'warped'
@@ -26,6 +19,7 @@ const HAMMER_MATERIALS = ['wooden', 'stone', 'iron', 'golden', 'diamond', 'nethe
 const REMOVED_ITEMS = []
     .concat(WOODS.map(w => `exdeorum:${w}_barrel`))
     .concat(WOODS.map(w => `exdeorum:${w}_crucible`))
+    .concat(WOODS.map(w => `exdeorum:${w}_compressed_sieve`))
     .concat(STONE_BARRELS.map(s => `exdeorum:${s}_barrel`))
     .concat(STONE_BARRELS.map(s => `exdeorum:${s}_crucible`))
     .concat(COMPRESSED.map(c => `exdeorum:compressed_${c}`))
@@ -49,10 +43,19 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'exdeorum:crucible_heat_source' })
     event.remove({ type: 'exdeorum:hammer' })
     event.remove({ type: 'exdeorum:compressed_hammer' })
+    event.remove({ type: 'exdeorum:compressed_sieve' })
     event.remove({ type: 'exdeorum:crook' })
 
     REMOVED_ITEMS.forEach(id => event.remove({ output: id }))
 
     // Compressed blocks also uncompress back into their loose form.
     COMPRESSED.forEach(c => event.remove({ input: `exdeorum:compressed_${c}` }))
+})
+
+// Send the hidden entries from the server as well, so multiplayer clients use
+// the pack's list even if they have no local client-side override loaded.
+RecipeViewerEvents.removeEntriesCompletely('item', event => {
+    REMOVED_ITEMS.forEach(id => {
+        if (Item.exists(id)) event.remove(id)
+    })
 })

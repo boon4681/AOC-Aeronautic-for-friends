@@ -1,6 +1,3 @@
-// Hides the Ex Deorum machines this pack replaced with Create equivalents.
-// Their recipes are removed in server_scripts/exdeorum_trim.js; this stops the
-// now-uncraftable items from still showing up in JEI.
 const WOODS = [
     'oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak',
     'mangrove', 'cherry', 'bamboo', 'crimson', 'warped'
@@ -22,6 +19,7 @@ const HAMMERS = ['wooden', 'stone', 'iron', 'golden', 'diamond', 'netherite']
 const HIDDEN = []
     .concat(WOODS.map(w => `exdeorum:${w}_barrel`))
     .concat(WOODS.map(w => `exdeorum:${w}_crucible`))
+    .concat(WOODS.map(w => `exdeorum:${w}_compressed_sieve`))
     .concat(STONE.map(s => `exdeorum:${s}_barrel`))
     .concat(STONE.map(s => `exdeorum:${s}_crucible`))
     .concat(COMPRESSED.map(c => `exdeorum:compressed_${c}`))
@@ -35,5 +33,7 @@ const HIDDEN = []
     ])
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-    HIDDEN.forEach(id => event.remove(id))
+    HIDDEN.forEach(id => {
+        if (Item.exists(id)) event.remove(id)
+    })
 })
