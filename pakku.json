@@ -4,7 +4,10 @@
     "description": "AOC - Aeronautic for my friends.",
     "export_server_side_projects_to_client": false,
     "overrides": [
-        "config"
+        "config",
+        "kubejs",
+        "ldlib",
+        "!kubejs/probe/**"
     ],
     "paths": {
         "mods": "mods",
@@ -13,6 +16,21 @@
         "worlds": "worlds",
         "shader_packs": "shaderpacks"
     },
+    "client_overrides": [
+        "resourcepacks"
+    ],
+    "server_overrides": [
+        "!kubejs/assets",
+        "forge-auto-install.txt",
+        "generate_auto_installation_file.bat",
+        "minecraft_server.jar",
+        "server.properties",
+        "server_starter.conf",
+        "server-icon.png",
+        "run.bat",
+        "run.sh",
+        "README.md"
+    ],
     "projects": {
         "proxy-compatible-forge": {
             "side": "SERVER"

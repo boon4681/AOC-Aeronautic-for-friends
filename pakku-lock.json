@@ -413,8 +413,45 @@
             ]
         },
         {
+            "pakku_id": "h2vfHH7NPhKFTHEt",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-advanced-tooltips"
+            },
+            "name": {
+                "curseforge": "Better Advanced Tooltips"
+            },
+            "id": {
+                "curseforge": "1637623"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "better-advanced-tooltips-2101.1.0-build.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8576/77/better-advanced-tooltips-2101.1.0-build.5.jar",
+                    "id": "8576077",
+                    "parent_id": "1637623",
+                    "hashes": {
+                        "sha1": "5b73537b908764f2d3fd593a0f56a8b1b034bc50",
+                        "md5": "edf97f2f11f57fffb4ed6d71c7b4508a"
+                    },
+                    "required_dependencies": [],
+                    "size": 37653,
+                    "date_published": "2026-08-04T14:10:10.520Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3doljggaKAq4sPSq",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-compatibility-checker"
             },
@@ -594,39 +631,6 @@
                     ],
                     "size": 375132,
                     "date_published": "2025-10-17T23:00:33.370Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "wdu1IYr2y1Vbno0o",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "boatload-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Boatload ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "1455793"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "boatload_1.21_ZH_HK_Translation.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7586/163/boatload_1.21_ZH_HK_Translation.zip",
-                    "id": "7586163",
-                    "parent_id": "1455793",
-                    "hashes": {
-                        "sha1": "4ffa633500ffdabc4513610a866639f4894d1291",
-                        "md5": "8facb6026d9a3206db29d394fa41a2c4"
-                    },
-                    "required_dependencies": [],
-                    "size": 1250,
-                    "date_published": "2026-02-06T21:00:33.413Z"
                 }
             ]
         },
@@ -2086,39 +2090,6 @@
             ]
         },
         {
-            "pakku_id": "HieukbNehmzBxoDK",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-more-package-couriers-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create More: Package Couriers zh_hk Translation"
-            },
-            "id": {
-                "curseforge": "1457759"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_more_package_couriers_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/639/create_more_package_couriers_zh_hk.zip",
-                    "id": "7596639",
-                    "parent_id": "1457759",
-                    "hashes": {
-                        "sha1": "4a00b50dc58e8080211bf3d9c46454ade9ed34e5",
-                        "md5": "8e34763712fca99e634aa258b0c92ba5"
-                    },
-                    "required_dependencies": [],
-                    "size": 2039,
-                    "date_published": "2026-02-08T22:03:35.163Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "LGUzY0UrNZWOQNle",
             "pakku_links": [
                 "iTxc6bqoiPuGYRkA"
@@ -2160,39 +2131,6 @@
             ]
         },
         {
-            "pakku_id": "dUWeCJDnBRlXoTjk",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-pattern-schematics-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create Pattern Schematics zh_hk Translation"
-            },
-            "id": {
-                "curseforge": "1093675"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_pattern_schematics_zh_hk_translation.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5677/450/create_pattern_schematics_zh_hk_translation.zip",
-                    "id": "5677450",
-                    "parent_id": "1093675",
-                    "hashes": {
-                        "sha1": "7cbd8102832c26b01d95821be34842679a84ef4f",
-                        "md5": "55f18b3b1062664f739d4c25052ac804"
-                    },
-                    "required_dependencies": [],
-                    "size": 1680,
-                    "date_published": "2024-08-30T13:58:39.623Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "uNR6L0JoB93TzFCP",
             "type": "MOD",
             "slug": {
@@ -2227,39 +2165,6 @@
                     ],
                     "size": 1707765,
                     "date_published": "2026-07-23T21:49:39.790Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "YVnlj1p1Ejds8oNL",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "createquestingunofficialzhhktranslation"
-            },
-            "name": {
-                "curseforge": "Create Questing unofficial ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "971920"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createquestingzhhk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5136/820/createquestingzhhk.zip",
-                    "id": "5136820",
-                    "parent_id": "971920",
-                    "hashes": {
-                        "sha1": "c60973ea6e503cacffb5b44b6110de414ee557e0",
-                        "md5": "1f2c9c50f1996a50f925304600c268f2"
-                    },
-                    "required_dependencies": [],
-                    "size": 942,
-                    "date_published": "2024-02-25T23:46:50.123Z"
                 }
             ]
         },
@@ -2375,39 +2280,6 @@
             ]
         },
         {
-            "pakku_id": "P4MhSsJ7jg9ZPnv4",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-slice-dice-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create Slice & Dice zh_hk Translation"
-            },
-            "id": {
-                "curseforge": "1457757"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "sliceanddice_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/632/sliceanddice_zh_hk.zip",
-                    "id": "7596632",
-                    "parent_id": "1457757",
-                    "hashes": {
-                        "sha1": "bff1024deedb6ca75a732a110db02040e98f6651",
-                        "md5": "3e60d0fec6e4dfdd940a4550b3fdfd41"
-                    },
-                    "required_dependencies": [],
-                    "size": 1211,
-                    "date_published": "2026-02-08T22:01:37.160Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "EoABNhN8zBMpQ1Gb",
             "pakku_links": [
                 "iTxc6bqoiPuGYRkA"
@@ -2445,39 +2317,6 @@
                     ],
                     "size": 1347181,
                     "date_published": "2026-08-16T17:39:24.810Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "zNQCNWL7o5B8DREA",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-stuff-n-additions-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create Stuff 'N Additions ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "1456302"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_stuff_additions_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7589/28/create_stuff_additions_zh_hk.zip",
-                    "id": "7589028",
-                    "parent_id": "1456302",
-                    "hashes": {
-                        "sha1": "3d751a38bebe96423c97caf0e259e8ba351c8bfe",
-                        "md5": "ae3a79f894e6dda5dd2b62f0d8cea770"
-                    },
-                    "required_dependencies": [],
-                    "size": 4758,
-                    "date_published": "2026-02-07T13:56:05Z"
                 }
             ]
         },
@@ -2626,72 +2465,6 @@
                     "required_dependencies": [],
                     "size": 3699282,
                     "date_published": "2026-07-21T20:43:14.507Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "JfqdYuUESW8a5xIZ",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-train-parts-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create Train Parts zh_hk Translation"
-            },
-            "id": {
-                "curseforge": "1457762"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_train_parts_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/646/create_train_parts_zh_hk.zip",
-                    "id": "7596646",
-                    "parent_id": "1457762",
-                    "hashes": {
-                        "sha1": "36948cb05b3ea9d7aaa7969507c44bfa34d17a75",
-                        "md5": "b01eabd48fae2c9f2f11cba703b56bb3"
-                    },
-                    "required_dependencies": [],
-                    "size": 1934,
-                    "date_published": "2026-02-08T22:05:09.207Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Q0wIjtrILoAhAlWf",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "createtweakedcontrollerunofficialzhhk"
-            },
-            "name": {
-                "curseforge": "Create Tweaked Controller unofficial ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "975573"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createtweakedcontrollerunofficialzhhktranslationr.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5113/181/createtweakedcontrollerunofficialzhhktranslationr.zip",
-                    "id": "5113181",
-                    "parent_id": "975573",
-                    "hashes": {
-                        "sha1": "a5ec01e89ef5e841e1d09fd7152e4107df723626",
-                        "md5": "37e4f174d29ac0bd55d1105c18a61852"
-                    },
-                    "required_dependencies": [],
-                    "size": 2481,
-                    "date_published": "2024-02-16T18:40:36.637Z"
                 }
             ]
         },
@@ -2965,39 +2738,6 @@
             ]
         },
         {
-            "pakku_id": "74e8kPvMWAXLhSSN",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-blaze-burner-fuels-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create: Blaze Burner Fuels zh_hk Translation"
-            },
-            "id": {
-                "curseforge": "1457754"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_blaze_burner_fuels_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/623/create_blaze_burner_fuels_zh_hk.zip",
-                    "id": "7596623",
-                    "parent_id": "1457754",
-                    "hashes": {
-                        "sha1": "fc744ca210e5301c37baf5b2162191e680cfb878",
-                        "md5": "bae10d66264e3554a317a23d2c44a236"
-                    },
-                    "required_dependencies": [],
-                    "size": 1498,
-                    "date_published": "2026-02-08T22:00:04.637Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "hLPHOKawwyUjPeUl",
             "type": "MOD",
             "slug": {
@@ -3146,39 +2886,6 @@
                     ],
                     "size": 67464,
                     "date_published": "2026-02-20T01:40:39.583Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "HtzFE5aIqxjJBGg2",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-chocolate-fountain-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create: Chocolate Fountain ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "1457750"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_chocolate_fountain_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/612/create_chocolate_fountain_zh_hk.zip",
-                    "id": "7596612",
-                    "parent_id": "1457750",
-                    "hashes": {
-                        "sha1": "89ce1774f7b916d6e3d9e6f142991245116beea9",
-                        "md5": "249bf0aa95ab2c6dfb73c9dbf92b4012"
-                    },
-                    "required_dependencies": [],
-                    "size": 1251,
-                    "date_published": "2026-02-08T21:57:30.957Z"
                 }
             ]
         },
@@ -4818,39 +4525,6 @@
             ]
         },
         {
-            "pakku_id": "ZNGx2mEoLgEO0NCE",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-trading-floor-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create: Trading Floor ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "1457748"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "trading_floor_zh_hk.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/607/trading_floor_zh_hk.zip",
-                    "id": "7596607",
-                    "parent_id": "1457748",
-                    "hashes": {
-                        "sha1": "106ee82ae706d66b96277371bbfa307e14936703",
-                        "md5": "155aa5dd0fc39d731ab804714511f8a2"
-                    },
-                    "required_dependencies": [],
-                    "size": 1942,
-                    "date_published": "2026-02-08T21:55:35.187Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "SDYsOesa0Q91pLDs",
             "type": "MOD",
             "slug": {
@@ -4885,39 +4559,6 @@
                     ],
                     "size": 250901,
                     "date_published": "2026-08-14T11:43:46.747Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "qrFHpogucxmWB2Ue",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-transmission-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create: Transmission! zh_hk translation"
-            },
-            "id": {
-                "curseforge": "1457764"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createtransmission_zh_hk_translation.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/654/createtransmission_zh_hk_translation.zip",
-                    "id": "7596654",
-                    "parent_id": "1457764",
-                    "hashes": {
-                        "sha1": "6b3c9cd6d471254b0d18910f79caf5b1dd80b01d",
-                        "md5": "69119a297ab50da993212381473de327"
-                    },
-                    "required_dependencies": [],
-                    "size": 1040,
-                    "date_published": "2026-02-08T22:06:33.360Z"
                 }
             ]
         },
@@ -4994,39 +4635,6 @@
                     ],
                     "size": 2687938,
                     "date_published": "2025-04-25T17:44:10.770Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Ah2o7RQ1PCgNw0Tq",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-vibrant-vaults-zh-hk-translation"
-            },
-            "name": {
-                "curseforge": "Create: Vibrant Vaults ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "1456295"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Create_Vibrant_Vaults_ZH_HK.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7588/950/Create_Vibrant_Vaults_ZH_HK.zip",
-                    "id": "7588950",
-                    "parent_id": "1456295",
-                    "hashes": {
-                        "sha1": "c783466c4db58be79a7284101df52583e9834064",
-                        "md5": "382bb8e57208bc125a562c242ffb1a19"
-                    },
-                    "required_dependencies": [],
-                    "size": 2398,
-                    "date_published": "2026-02-07T13:40:01.640Z"
                 }
             ]
         },
@@ -6285,72 +5893,6 @@
             ]
         },
         {
-            "pakku_id": "ZGw9gp25WvA2YQl4",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "handcraftedunofficialzhhktranslation"
-            },
-            "name": {
-                "curseforge": "Handcrafted unofficial ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "975575"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "handcraftedzhtwunofficialtranslation.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5113/190/handcraftedzhtwunofficialtranslation.zip",
-                    "id": "5113190",
-                    "parent_id": "975575",
-                    "hashes": {
-                        "sha1": "0da33283e62de4947cc93b28253848e704b921bb",
-                        "md5": "d54cf497e228047f8c3572ca655e793c"
-                    },
-                    "required_dependencies": [],
-                    "size": 4051,
-                    "date_published": "2024-02-16T18:46:03.700Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "MgRttTwyzd0frWAy",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "idas-unofficialzhhktranslation"
-            },
-            "name": {
-                "curseforge": "IDAS unofficial ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "979652"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "IDAS Chinese Translation ZH HK.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5136/804/IDAS Chinese Translation ZH HK.zip",
-                    "id": "5136804",
-                    "parent_id": "979652",
-                    "hashes": {
-                        "sha1": "e36cd25c639820bed179872ee7b2ed9ffb3407f9",
-                        "md5": "902810717ac907c68c13494aa3f8bc2d"
-                    },
-                    "required_dependencies": [],
-                    "size": 964,
-                    "date_published": "2024-02-25T23:37:00.267Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Le7nO66Z73MvQy2t",
             "type": "MOD",
             "slug": {
@@ -7018,6 +6560,42 @@
             ]
         },
         {
+            "pakku_id": "FWa5sKJyq1GbCYFJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kilagraph"
+            },
+            "name": {
+                "curseforge": "KilaGraph"
+            },
+            "id": {
+                "curseforge": "1579792"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kilagraph-neoforge-1.21.1-21.1.0.14.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8815/622/kilagraph-neoforge-1.21.1-21.1.0.14.jar",
+                    "id": "8815622",
+                    "parent_id": "1579792",
+                    "hashes": {
+                        "sha1": "9a349840268ab8d06f69f2f1edab6704f59f78aa",
+                        "md5": "562fda35583d7f344ee0e648f26062b0"
+                    },
+                    "required_dependencies": [],
+                    "size": 2284607,
+                    "date_published": "2026-09-05T16:04:07.023Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3GpOE1jmrtSV1lpV",
             "type": "MOD",
             "slug": {
@@ -7096,6 +6674,131 @@
                     "required_dependencies": [],
                     "size": 7279276,
                     "date_published": "2026-06-28T16:33:45.223Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dv7hbTAdWsYCa8z2",
+            "pakku_links": [
+                "NyprtlXCjucNBNwK",
+                "h2vfHH7NPhKFTHEt"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.374.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8715/199/kubejs-neoforge-2101.7.2-build.374.jar",
+                    "id": "8715199",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "d675ea2cfdf3286e996dcad5a27deba6a04bc3a2",
+                        "md5": "2236757f60032ca1261c39b84edd5501"
+                    },
+                    "required_dependencies": [
+                        "416294",
+                        "1637623"
+                    ],
+                    "size": 2292654,
+                    "date_published": "2026-08-23T14:22:12.603Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2iwmv4rTwyiUrHE0",
+            "pakku_links": [
+                "iTxc6bqoiPuGYRkA",
+                "dv7hbTAdWsYCa8z2"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-create"
+            },
+            "name": {
+                "curseforge": "KubeJS Create"
+            },
+            "id": {
+                "curseforge": "429371"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7213/667/kubejs-create-neoforge-2101.3.1-build.18.jar",
+                    "id": "7213667",
+                    "parent_id": "429371",
+                    "hashes": {
+                        "sha1": "d4dce8f82f2d37545f085522a782c1bfda222154",
+                        "md5": "25b13d8e4ac7b369129302aa7afd3b79"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "238086"
+                    ],
+                    "size": 38630,
+                    "date_published": "2025-11-12T09:21:55.690Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cZb4bazShXqGRmc1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ldlib"
+            },
+            "name": {
+                "curseforge": "LDLib"
+            },
+            "id": {
+                "curseforge": "626676"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ldlib2-neoforge-1.21.1-2.2.38-all.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8777/539/ldlib2-neoforge-1.21.1-2.2.38-all.jar",
+                    "id": "8777539",
+                    "parent_id": "626676",
+                    "hashes": {
+                        "sha1": "902947f8d8a1797abaf2fdb9c95e97b6d1c055fc",
+                        "md5": "7ee2ebd19031fc385d37567443eeb770"
+                    },
+                    "required_dependencies": [],
+                    "size": 7321223,
+                    "date_published": "2026-08-31T12:42:21.670Z"
                 }
             ]
         },
@@ -7445,6 +7148,42 @@
                     "required_dependencies": [],
                     "size": 73938,
                     "date_published": "2024-08-17T15:55:16.403Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YnBOB4dhlBrTnYjR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "multiblocked2"
+            },
+            "name": {
+                "curseforge": "Multiblocked2"
+            },
+            "id": {
+                "curseforge": "1104057"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Multiblocked2-1.21-1.21.1-21.0.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8555/36/Multiblocked2-1.21-1.21.1-21.0.11.jar",
+                    "id": "8555036",
+                    "parent_id": "1104057",
+                    "hashes": {
+                        "sha1": "49a49646289e34d6f6c5a2e2010e383966500c9b",
+                        "md5": "f61384ca1d7fa6ab60266284a03f93b3"
+                    },
+                    "required_dependencies": [],
+                    "size": 1773827,
+                    "date_published": "2026-08-01T15:32:46.307Z"
                 }
             ]
         },
@@ -8385,6 +8124,48 @@
             ]
         },
         {
+            "pakku_id": "NyprtlXCjucNBNwK",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rhino"
+            },
+            "name": {
+                "curseforge": "Rhino"
+            },
+            "id": {
+                "curseforge": "416294"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rhino-2101.2.8-build.91.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8463/898/rhino-2101.2.8-build.91.jar",
+                    "id": "8463898",
+                    "parent_id": "416294",
+                    "hashes": {
+                        "sha1": "56eab1d464ed0811c64040c64bd047df5cbc3aad",
+                        "md5": "c8227681747c8fad25d1fc4e06542717"
+                    },
+                    "required_dependencies": [],
+                    "size": 980936,
+                    "date_published": "2026-07-19T10:21:57.760Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "eBhuLkL5Fbq6JboD",
             "type": "MOD",
             "slug": {
@@ -9063,39 +8844,6 @@
                     ],
                     "size": 121731,
                     "date_published": "2025-10-24T07:47:41.350Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "hNh0WuDTwODbwAtt",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "tradingpostzhhktranslation"
-            },
-            "name": {
-                "curseforge": "Trading Post unofficial ZH_HK Translation"
-            },
-            "id": {
-                "curseforge": "979667"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "trading post ZH HK.zip",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5136/836/trading post ZH HK.zip",
-                    "id": "5136836",
-                    "parent_id": "979667",
-                    "hashes": {
-                        "sha1": "61400b3bf807e5024e286f4cf06592ca4e597db2",
-                        "md5": "219ce0a5865ea4c583f2cf3a964a0335"
-                    },
-                    "required_dependencies": [],
-                    "size": 1021,
-                    "date_published": "2024-02-25T23:58:11.330Z"
                 }
             ]
         },
