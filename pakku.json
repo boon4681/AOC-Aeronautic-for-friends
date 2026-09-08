@@ -1,6 +1,6 @@
 {
     "name": "AOC - Aeronautic",
-    "version": "B-2.5-PATCH-1",
+    "version": "B-2.5-PATCH-2",
     "description": "AOC - Aeronautic for my friends.",
     "overrides": [
         "config",
