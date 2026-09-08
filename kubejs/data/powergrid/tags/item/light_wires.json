@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:wire_spool",
+    "kubejs:gold_wire_spool",
+    "kubejs:electrum_wire_spool",
+    "kubejs:insulated_wire_spool",
+    "kubejs:heavily_insulated_wire_spool"
+  ]
+}
