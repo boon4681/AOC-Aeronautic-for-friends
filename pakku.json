@@ -2,22 +2,11 @@
     "name": "AOC - Aeronautic",
     "version": "B-2.5-PATCH-1",
     "description": "AOC - Aeronautic for my friends.",
-    "export_server_side_projects_to_client": false,
     "overrides": [
         "config",
         "kubejs",
         "ldlib2",
         "!kubejs/probe/**"
-    ],
-    "paths": {
-        "mods": "mods",
-        "resource_packs": "resourcepacks",
-        "data_packs": "datapacks",
-        "worlds": "worlds",
-        "shader_packs": "shaderpacks"
-    },
-    "client_overrides": [
-        "resourcepacks"
     ],
     "server_overrides": [
         "!kubejs/assets",
@@ -31,11 +20,90 @@
         "run.sh",
         "README.md"
     ],
+    "client_overrides": [
+        "resourcepacks"
+    ],
+    "paths": {
+        "mods": "mods",
+        "resource_packs": "resourcepacks",
+        "data_packs": "datapacks",
+        "worlds": "worlds",
+        "shader_packs": "shaderpacks"
+    },
     "projects": {
         "proxy-compatible-forge": {
             "side": "SERVER"
         },
         "better-compatibility-checker": {
+            "side": "CLIENT"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        },
+        "sodium-extra": {
+            "side": "CLIENT"
+        },
+        "irisshaders": {
+            "side": "CLIENT"
+        },
+        "iris-search": {
+            "side": "CLIENT"
+        },
+        "immediatelyfast": {
+            "side": "CLIENT"
+        },
+        "continuity": {
+            "side": "CLIENT"
+        },
+        "entity-model-features": {
+            "side": "CLIENT"
+        },
+        "fancymenu": {
+            "side": "CLIENT"
+        },
+        "chat-heads": {
+            "side": "CLIENT"
+        },
+        "colorwheel": {
+            "side": "CLIENT"
+        },
+        "colorwheel-patcher": {
+            "side": "CLIENT"
+        },
+        "controlling": {
+            "side": "CLIENT"
+        },
+        "better-advanced-tooltips": {
+            "side": "CLIENT"
+        },
+        "create-rolling-tones": {
+            "side": "CLIENT"
+        },
+        "xaeros-minimap": {
+            "side": "CLIENT"
+        },
+        "xaeros-world-map": {
+            "side": "CLIENT"
+        },
+        "entity-texture-features-fabric": {
+            "side": "CLIENT"
+        },
+        "simple-discord-rpc": {
+            "side": "CLIENT"
+        },
+        "boat-item-view-forge": {
+            "side": "CLIENT"
+        },
+        "server-browser": {
+            "side": "CLIENT"
+        },
+        "ftbxaerocompat": {
+            "side": "CLIENT"
+        },
+        "jade-sable-compat": {
+            "side": "CLIENT"
+        },
+        "create-xaeros-map": {
             "side": "CLIENT"
         }
     }
