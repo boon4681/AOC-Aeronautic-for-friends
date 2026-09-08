@@ -27,6 +27,7 @@ const REMOVED_ITEMS = []
     .concat(HAMMER_MATERIALS.map(m => `exdeorum:compressed_${m}_hammer`))
     .concat([
         'exdeorum:mechanical_hammer',
+        'exdeorum:mechanical_sieve',
         'exdeorum:crook',
         'exdeorum:bone_crook'
     ])
