@@ -1,45 +1,43 @@
-// Treat the other copper conductors as equivalent crafting wire. Create Crafts
-// & Additions and Electroenergetics already add their copper wire to this tag.
 ServerEvents.tags('item', event => {
-    event.add('c:wires/copper', [
-        'create_new_age:copper_wire',
-        'powergrid:wire'
-    ])
-
-    event.add('c:wires/gold', 'powergrid:golden_wire')
+    event.add('c:wires/copper', 'kubejs:wire_spool')
+    event.add('c:wires/gold', 'kubejs:gold_wire_spool')
+    event.add('c:wires/iron', 'kubejs:gold_wire_spool')
+    event.add('c:wires/electrum', 'kubejs:electrum_wire_spool')
 })
 
 ServerEvents.recipes(event => {
-    // Eight copper wires wrapped around Create Crafts & Additions' empty spool.
-    // The 3x3 pattern intentionally differs from that mod's copper-spool recipe.
-    event.shaped('kubejs:wire_spool', [
-        'WWW',
-        'WSW',
-        'WWW'
-    ], {
-        W: '#c:wires/copper',
-        S: 'createaddition:spool'
-    }).id('aoc:universal_wire_spool')
+    // Tier 1: copper sheet cut straight into a spool.
+    event.recipes.create.cutting('2x kubejs:wire_spool', Ingredient.of('#c:plates/copper'))
+        .processingTime(50)
+        .id('aoc:cutting/universal_wire_spool')
 
-    // Tier 2: upgrade the copper spool with gold wire.
-    event.shaped('kubejs:gold_wire_spool', [
-        'WWW',
-        'WSW',
-        'WWW'
-    ], {
-        W: '#c:wires/gold',
-        S: 'kubejs:wire_spool'
-    }).id('aoc:universal_gold_wire_spool')
+    // Tier 2: two cuts — gold sheet to rod, then rod to spool.
+    event.recipes.create.cutting('2x createaddition:gold_rod', Ingredient.of('#c:plates/gold'))
+        .processingTime(50)
+        .id('aoc:cutting/gold_rod_from_sheet')
 
-    // Tier 3: upgrade the gold spool with electrum wire.
-    event.shaped('kubejs:electrum_wire_spool', [
-        'WWW',
-        'WSW',
-        'WWW'
-    ], {
-        W: '#c:wires/electrum',
-        S: 'kubejs:gold_wire_spool'
-    }).id('aoc:universal_electrum_wire_spool')
+    event.recipes.create.cutting('2x kubejs:gold_wire_spool', 'createaddition:gold_rod')
+        .processingTime(50)
+        .id('aoc:cutting/universal_gold_wire_spool')
+
+    // Tier 3: diamond compacted with gold rods, energized, then cut into
+    event.recipes.create.compacting('kubejs:uncharged_electrum_compound', [
+        'minecraft:diamond',
+        'createaddition:gold_rod',
+        'createaddition:gold_rod'
+    ]).id('aoc:compacting/uncharged_electrum_compound')
+
+    event.custom({
+        type: 'createaddition:charging',
+        energy: 3000,
+        max_charge_rate: 360,
+        ingredients: [{ item: 'kubejs:uncharged_electrum_compound' }],
+        results: [{ id: 'kubejs:electrum_compound' }]
+    }).id('aoc:charging/electrum_compound')
+
+    event.recipes.create.cutting('2x kubejs:electrum_wire_spool', 'kubejs:electrum_compound')
+        .processingTime(50)
+        .id('aoc:cutting/universal_electrum_wire_spool')
 
     // Tier 4: insulate the electrum spool with Rubberworks rubber.
     event.shaped('kubejs:insulated_wire_spool', [
