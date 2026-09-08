@@ -1,6 +1,6 @@
 {
-    "name": "AOC - Aeronautic friends",
-    "version": "2.5-PATCH-1",
+    "name": "AOC - Aeronautic",
+    "version": "B-2.5-PATCH-1",
     "description": "AOC - Aeronautic for my friends.",
     "export_server_side_projects_to_client": false,
     "overrides": [
