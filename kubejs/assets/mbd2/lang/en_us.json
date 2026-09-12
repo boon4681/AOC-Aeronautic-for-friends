@@ -1,4 +1,6 @@
 {
+  "aoc.fluid_block_generation": "Fluid Interaction",
+  "recipe_type.aoc.fluid_block_generation": "Fluid Interaction",
   "block.mbd2.strainer": "Sediment Strainer",
   "mbd2.strainer": "Sediment Straining",
   "item.kubejs.strainer_filter": "Sediment Filter"

@@ -5,7 +5,7 @@ set dotenv-load := true
 
 prism := env("PRISM_DIR")
 instance := env("INSTANCE")
-pack := "build/curseforge/" + instance + ".zip"
+pack := env("PACK")
 
 pakku *args:
     @java -jar pakku.jar "$@"
