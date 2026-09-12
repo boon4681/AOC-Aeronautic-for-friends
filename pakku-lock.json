@@ -415,6 +415,7 @@
         {
             "pakku_id": "h2vfHH7NPhKFTHEt",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-advanced-tooltips"
             },
@@ -562,6 +563,7 @@
         {
             "pakku_id": "4L1XZfB4NTGbC0oO",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "boat-item-view-forge"
             },
@@ -710,6 +712,7 @@
         {
             "pakku_id": "ZvlSj0fqclaQpRKB",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "chat-heads"
             },
@@ -982,6 +985,7 @@
                 "RQvoY0vsa95tDxXd"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "colorwheel"
             },
@@ -1020,6 +1024,7 @@
         {
             "pakku_id": "SFY39b9VXf0zuQvj",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "colorwheel-patcher"
             },
@@ -1261,6 +1266,7 @@
         {
             "pakku_id": "E52egIPo4KZw3cPM",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "continuity"
             },
@@ -1297,6 +1303,7 @@
         {
             "pakku_id": "qaqEcM1GGNUkBHcK",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "controlling"
             },
@@ -1562,6 +1569,7 @@
         {
             "pakku_id": "PAFDvlnnxw2HHSvc",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "create-xaeros-map"
             },
@@ -1941,6 +1949,42 @@
                     ],
                     "size": 1661802,
                     "date_published": "2026-06-02T21:49:29.260Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "IlLbLHxdV96757OT",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-deco"
+            },
+            "name": {
+                "curseforge": "Create Deco"
+            },
+            "id": {
+                "curseforge": "509285"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createdeco-2.1.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7943/181/createdeco-2.1.3.jar",
+                    "id": "7943181",
+                    "parent_id": "509285",
+                    "hashes": {
+                        "sha1": "93d9eff58b46c6953e907d071e6be4e3ce07be38",
+                        "md5": "16d5818298f6332038528cd13bd4ff1a"
+                    },
+                    "required_dependencies": [],
+                    "size": 3328498,
+                    "date_published": "2026-04-18T03:51:39.807Z"
                 }
             ]
         },
@@ -4219,6 +4263,7 @@
         {
             "pakku_id": "f4M4C1dMXQtmDCVG",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "create-rolling-tones"
             },
@@ -4980,6 +5025,7 @@
                 "mhWMba0IfMOniofV"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "drippy-loading-screen"
             },
@@ -5346,6 +5392,7 @@
                 "pdeIpWTNIxnDROQi"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "ftbxaerocompat"
             },
@@ -5642,6 +5689,7 @@
                 "mhWMba0IfMOniofV"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "fancymenu"
             },
@@ -6010,6 +6058,7 @@
         {
             "pakku_id": "WYNToO43kakecTpK",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immediatelyfast"
             },
@@ -6254,6 +6303,7 @@
                 "RQvoY0vsa95tDxXd"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "iris-search"
             },
@@ -6303,6 +6353,7 @@
         {
             "pakku_id": "RQvoY0vsa95tDxXd",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "irisshaders"
             },
@@ -6419,6 +6470,7 @@
         {
             "pakku_id": "6cR2UDHInjpBKmJ4",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "jade-sable-compat"
             },
@@ -8409,6 +8461,7 @@
                 "9WhXvhYuXCEMDYnH"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "server-browser"
             },
@@ -8489,6 +8542,7 @@
                 "3SIGSQaeNZGW5h0O"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "simple-discord-rpc"
             },
@@ -8535,6 +8589,43 @@
                     ],
                     "size": 716599,
                     "date_published": "2026-07-22T19:43:08.477Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "IgiqX9MMweWNlHcj",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "simple-voice-chat"
+            },
+            "name": {
+                "curseforge": "Simple Voice Chat"
+            },
+            "id": {
+                "curseforge": "416089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "voicechat-neoforge-1.21.1-2.6.23.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8807/853/voicechat-neoforge-1.21.1-2.6.23.jar",
+                    "id": "8807853",
+                    "parent_id": "416089",
+                    "hashes": {
+                        "sha1": "e089e5e0499b59f870a0bf91d331e33f25feb0da",
+                        "md5": "f279f7c5b057c226009feda7df1e4535"
+                    },
+                    "required_dependencies": [],
+                    "size": 4921425,
+                    "date_published": "2026-09-04T15:49:21.710Z"
                 }
             ]
         },
@@ -8712,6 +8803,7 @@
         {
             "pakku_id": "Pa8OruQUO5NEh9xx",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sodium"
             },
@@ -8748,6 +8840,7 @@
         {
             "pakku_id": "9QAV9o7Tic1WwgR3",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sodium-extra"
             },
@@ -9129,6 +9222,7 @@
         {
             "pakku_id": "7Ul8rSmYEwp9wyiH",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "xaeros-minimap"
             },
@@ -9166,6 +9260,7 @@
         {
             "pakku_id": "kzToYyVMNmFTefsX",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "xaeros-world-map"
             },
@@ -9313,6 +9408,7 @@
         {
             "pakku_id": "5UZLfN18tL1kWaSV",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entity-model-features"
             },
@@ -9352,6 +9448,7 @@
         {
             "pakku_id": "8290s4DxCqZbxMYn",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entity-texture-features-fabric"
             },

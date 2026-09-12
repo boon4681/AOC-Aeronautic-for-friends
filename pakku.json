@@ -105,6 +105,9 @@
         },
         "create-xaeros-map": {
             "side": "CLIENT"
+        },
+        "drippy-loading-screen": {
+            "side": "CLIENT"
         }
     }
 }

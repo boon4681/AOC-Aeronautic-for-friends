@@ -16,6 +16,9 @@ import path:
 out:
     @java -jar pakku.jar export --no-server
 
+build:
+    @java -jar pakku.jar export
+
 update: out
     @"{{prism}}/prismlauncher.exe" -d "{{prism}}" -I "{{pack}}"
 
